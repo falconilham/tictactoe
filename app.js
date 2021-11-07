@@ -9,8 +9,8 @@ router.get('/', function (req, res) {
 });
 app.use(express.static(`${__dirname}/public`));
 
-
+console.log(process.env.PORT)
 app.use('/', router);
-app.listen(process.env.port || 5000);
+app.listen(process.env.PORT || 5000);
 
-console.log('Running at Port 3000');
+console.log('Running at Port ' + (process.env.PORT || 5000));
