@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/falconilham/tictactoe/issues"
   },
-  "homepage": "https://github.com/falconilham/tictactoe#readme"
+  "homepage": "https://github.com/falconilham/tictactoe#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
